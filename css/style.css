@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto+Slab&display=swap');
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+header, h1, h2, .btn{
+    font-family: 'Major Mono Display', monospace;
+}
+
