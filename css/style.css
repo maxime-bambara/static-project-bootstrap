@@ -8,3 +8,6 @@ header, h1, h2, .btn{
     font-family: 'Major Mono Display', monospace;
 }
 
+.card-img-top{
+    height: 50%;
+}

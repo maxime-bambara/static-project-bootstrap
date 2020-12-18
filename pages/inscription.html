@@ -24,7 +24,7 @@
                 <a class="nav-link" href="/index.html">Home</a>
               </li>
               <li class="nav-item border-right">
-                <a class="nav-link border-right" href="/pages/planning.html">Planning</a>
+                <a class="nav-link border-right" href="/pages/planning.html">Planning d'entraînement</a>
               </li>
               <li class="nav-item border-right">
                 <a class="nav-link" href="/pages/tournoi.html">Tournoi 3vs3</a>
@@ -41,8 +41,95 @@
 
     <!-- Container -->
     <main class="container p-4">
-        <h1>Planning</h1>
-        
+        <h1 class="text-center mb-">Inscription</h1>
+        <form>
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+            </div>
+          </div>
+          <fieldset class="form-group">
+            <div class="row">
+              <legend class="col-form-label col-sm-2 pt-0">Type d'équipes</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="club-off" value="club-off" checked>
+                  <label class="form-check-label" for="club-off">
+                    Club officiel
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="club-not-off" value="club-not-off">
+                  <label class="form-check-label" for="club-not-off">
+                    Equipe non officielle
+                  </label>
+                </div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <div class="form-group row">
+            <label for="team-name" class="col-sm-2 col-form-label">Nom de l'équipe</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="team-name" placeholder="Nom de l'équipe">
+            </div>
+          </div>
+          <fieldset class="form-group">
+            <div class="row">
+              <legend class="col-form-label col-sm-2 pt-0">Catégories</legend>
+              <div class="col-sm-10">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox"  id="u11" value="u11" checked>
+                  <label class="form-check-label" for="u11">
+                    U11
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="u13" value="u13">
+                  <label class="form-check-label" for="u13">
+                    U13
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="u15" value="u15">
+                  <label class="form-check-label" for="u15">
+                    U15
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="u18" value="u18">
+                  <label class="form-check-label" for="u18">
+                    U18
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="senior" value="senior">
+                  <label class="form-check-label" for="senior">
+                    Sénior
+                  </label>
+                </div>
+              </div>
+              </div>
+            </div>
+          </fieldset>
+          <div class="form-group row">
+            <div class="col-sm-2">Validation</div>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                  En soumettant ce formulaire, j'accepte que les informations saisies soient exploitées dans le cadre de l'organisation de ce tournoi et de tout autre à venir.
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-sm-10">
+              <button type="submit" class="btn btn-danger">J'inscris mon/mes équipe(s) !</button>
+            </div>
+          </div>
+        </form>
     </main>
 
     <!-- Footer -->
